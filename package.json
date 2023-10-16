@@ -1,13 +1,13 @@
 {
   "name": "ach-pagination",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Una libreria para paginar información.",
-  "main": "dist-node/index.js",
-  "browser": "dist-browser/index.js",
+  "main": "dist/dist-node/index.js",
+  "browser": "dist/dist-browser/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:browser": "tsc src/index.ts --outDir dist-browser --module ES6",
-    "build:node": "tsc src/index.ts --outDir dist-node",
+    "build:browser": "tsc src/index.ts --outDir dist/dist-browser --module ES6",
+    "build:node": "tsc src/index.ts --outDir dist/dist-node",
     "build": "npm run build:browser && npm run build:node",
     "publish": "npm publish --access public"
   },
@@ -25,5 +25,10 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatoo-carlos-23/ach-pagination"
+  },
+  "homepage": "https://github.com/tatoo-carlos-23/ach-pagination"
 }
