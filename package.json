@@ -1,0 +1,28 @@
+{
+  "name": "ach-pagination",
+  "version": "1.0.1",
+  "description": "Una libreria para paginar información.",
+  "main": "dist-node/index.js",
+  "browser": "dist-browser/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:browser": "tsc src/index.ts --outDir dist-browser --module ES6",
+    "build:node": "tsc src/index.ts --outDir dist-node",
+    "build": "npm run build:browser && npm run build:node"
+  },
+  "keywords": [
+    "TS",
+    "React",
+    "Angular",
+    "NestJs"
+  ],
+  "author": {
+    "email": "car.abr.04@gmail.com",
+    "name": "Carlos Abramonte.",
+    "url":""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
