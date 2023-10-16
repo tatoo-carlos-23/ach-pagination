@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build:node": "tsc src/index.ts --outDir dist-node",
-    "build": "npm run build:browser && npm run build:node"
+    "build": "npm run build:browser && npm run build:node",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "TS",
@@ -19,7 +20,7 @@
   "author": {
     "email": "car.abr.04@gmail.com",
     "name": "Carlos Abramonte.",
-    "url":""
+    "url": ""
   },
   "license": "ISC",
   "devDependencies": {
