@@ -1,6 +1,6 @@
 {
-  "name": "ach-pagination",
-  "version": "1.0.3",
+  "name": "ach-pagination-local",
+  "version": "1.0.0",
   "description": "Una libreria para paginar información.",
   "main": "dist/dist-node/index.js",
   "browser": "dist/dist-browser/index.js",
