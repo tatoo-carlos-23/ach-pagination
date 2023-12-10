@@ -6,7 +6,7 @@
   "browser": "dist/dist-browser/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:browser": "tsc src/index.ts --outDir dist/dist-browser --module ES6",
+    "build:browser": "tsc src/index.ts --outDir dist/dist-browser --module ES2022",
     "build:node": "tsc src/index.ts --outDir dist/dist-node",
     "build": "npm run build:browser && npm run build:node",
     "publish": "npm publish --access public"
